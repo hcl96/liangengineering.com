@@ -1,0 +1,122 @@
+body {
+	overflow-y: scroll;
+	height: 100%;
+	font-family: helvetica;
+	background-color: #282828;
+}
+
+header {
+	padding-bottom: 60px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+nav {
+/*	background-color: grey;
+*/	
+	display: inline-block;
+	float: right;
+}
+
+nav ul li{
+	font-size: 18px;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 15px 0px 15px;
+}
+
+a {
+	color: 	white;
+	text-decoration: none;
+}
+
+footer {
+	padding-top: 5px;
+	color: white;
+	background-color: none;
+	text-align: left;
+}
+
+nav-bottom {
+	display:  inline-block;
+	text-align: center;
+}
+
+nav-bottom ul li {
+	display: inline-block;
+	list-style-type: none;
+	background-color: none;
+	padding:0px 10px 0px 10px;
+}
+
+img {
+	display: block;
+	max-height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#myVideo {
+	position: relative;
+	display: block;
+	max-height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#promo-content {
+	font-family: verdana;
+	position: absolute;
+	color: white;
+	top: 200px;
+	left: 100px;
+	/*margin-left: 75px;
+	margin-top: 75px;*/
+	font-size: 20px;
+}
+
+#container {
+   max-height: auto; 
+   max-width: 35%;
+   float: right;
+   padding-right: 15px;
+   padding-top: 30px;
+}
+
+#Copyright {
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#body-about {
+	
+	background-repeat: no-repeat;
+	/*background-size: 300px 1000px;*/
+}
+
+.Text {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+p-about {
+	display: block;
+	color: white;
+	margin: 30px 475px 150px 20px;
+	text-align: justify;
+	font-size: 18px;
+	/*background-image: url(./media/portrait.jpg)*/
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
