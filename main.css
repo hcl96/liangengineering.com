@@ -3,6 +3,8 @@ body {
 	height: 100%;
 	font-family: helvetica;
 	background-color: #282828;
+	margin: 0;
+
 }
 
 header {
@@ -60,14 +62,14 @@ img {
 #myVideo {
 	position: relative;
 	display: block;
-	max-height: auto;
-	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	border-width: 0px;
+
 }
 
 #promo-content {
-	font-family: verdana;
+	font-family: helvetica;
 	position: absolute;
 	color: white;
 	top: 200px;
