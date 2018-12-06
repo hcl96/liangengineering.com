@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Liang Engineering</title>
+		<link href="main.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="ignus2.html">Rocket Engine</a></li>
+					<li><a href="edumip.html">Segway Robot</a></li>
+					<li><a href="iarcquad.html">IARC Quadcopter</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<video width=100% height=auto autoplay muted loop id="myVideo">
+  			<source src="./media/edumip_promo.mp4" type="video/mp4">
+		</video>
+
+		<div class= "promo-content-robot">
+			<h1>Mobile Inverted Pendulum</h1>
+		</div>
+		<div class="about">
+			<h2>About eduMIP</h2>
+				<p>
+					The Mobile Inverted Pendulum is a classical controls problem with the added challenge of balancing the pendulum on wheels. As part of a controls graduate class, I develop an optimal state space controller using linear quadratic regulator (LQR) and implemented. In addition to obtaining the control law, a complementary filter is designed to obtain a stable dynamic state. To realize the balancing, a C program was coded to demonstrate the robot in balance.</br></br>
+
+					The MATLAB and balance codes are available here: 
+					<ul style= "list-style: none;">
+						<li><a href="https://github.com/hcl96/edumip_balance/blob/master/edumip_balance.c" target="_blank">+ Balance C Code</a></li>
+						<li><a href="https://github.com/hcl96/edumip_balance/blob/master/mipstatespace.m"  target="_blank">+ MATLAB Code</a></li>
+					</ul>
+
+					The eduMIP is an educational Mobile Inverted Pendulum kit developed by Coordinated Robotics Lab at UCSD. It is designed for teaching controls and benchmarking controllers. The robot features a BeagleBone Blue with Linux OS, common IO architectures and even an embedded IMU perfect for dynamical controller implementation</br></br>
+					
+					For documentation and information regarding the eduMIP kit, visit <a href="http://strawsondesign.com/docs/librobotcontrol/index.html">here</a></br>
+				</p>
+		</div>
+
+		<footer>
+			<nav-bottom>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/h1liang/" target="_blank">LinkedIn</a></li>
+					<li><a href="https://github.com/hcl96" target="_blank">Github</a></li>
+					<!-- <li><a href="https://www.instagram.com/stevenliang96/" target="_blank">Instagram</a></li> -->
+				</ul>
+				<!-- <div id="Copyright">Designed and Built by Steven Liang &copy 2018 Liang Engineering</div> -->
+			</nav-bottom>
+			
+		</footer>
+
+	</body>
+
+</html>

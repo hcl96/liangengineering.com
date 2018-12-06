@@ -1,10 +1,10 @@
 body {
 	overflow-y: scroll;
 	height: 100%;
-	font-family: helvetica;
+	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #282828;
 	margin: 0;
-
+	list-style-type: none;
 }
 
 header {
@@ -68,15 +68,55 @@ img {
 
 }
 
-#promo-content {
-	font-family: helvetica;
+.promo-content {
+	font-family: 'Roboto Condensed', sans-serif;
 	position: absolute;
 	color: white;
 	top: 200px;
-	left: 100px;
+	left: 50px;
 	/*margin-left: 75px;
 	margin-top: 75px;*/
+	font-size: 22px;
+}
+
+.promo-content-robot {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: absolute;
+	color: #0000FF;
+	top: 400px;
+	left: 80px;
+	/*margin-left: 75px;
+	margin-top: 75px;*/
+	font-size: 25px;
+}
+
+.promo-content-quad {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: absolute;
+	text-align: center;
+	color: #FFFFFF
+	top: 400px;
+	left: 80px;
+	font-size: 25px;
+}
+
+.about {
+	font-family: Calibri;
 	font-size: 20px;
+	color: white;
+	text-align: left;
+	margin: 40px 40px 40px 60px;
+}
+
+#ignus-performance {
+	font-style: italic;
+	font-family: Arial;
+	font-size: 20px;
+	color: grey;
+  	position: absolute;
+  	margin-top: -500px;
+	margin-left: 70px;
+	align-items: left;
 }
 
 #container {
@@ -88,9 +128,9 @@ img {
 }
 
 #Copyright {
-	font-size: 12px;
-	text-align: center;
-	padding-bottom: 10px;
+	display: inline-block;
+	text-align: right;
+	font-size: 18px;
 }
 
 #body-about {
@@ -114,11 +154,4 @@ p-about {
 	text-align: justify;
 	font-size: 18px;
 	/*background-image: url(./media/portrait.jpg)*/
-}
-
-h1 {
-	color: white;
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 100px;
 }
