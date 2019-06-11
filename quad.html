@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Liang Engineering</title>
+		<meta charset="utf-8"> 
+		<link href="main.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108065070-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-108065070-2');
+		</script>
+	</head>
+
+	<body oncontextmenu="return false">
+		<div class="topnav">
+			<a href="quad.html">English</a>
+			<a href="quad_zh.html">中文</a>
+				<div class="topnav-right">
+			    	<a href="index.html">Home</a>
+			    	<a href="portopt.html">Portfolio Opt</a>
+			    	<a href="uarm.html">Robotic uArm</a>
+			    	<a href="quad.html">Quadcopter</a>
+					<a href="edumip.html">Segway Robot</a>
+					<a href="ignus2.html">Rocket Engine</a>
+		  		</div>
+		</div>
+
+		<img src="./media/quad_promo.jpg">
+		<div class= "promo-content-quad">
+			<h1>Quadcopter Flight Control</h1>
+		</div>
+
+		<div class="about">
+			<h2>How to Fly the Quadcopter?</h2>
+				<p>
+					In collaboration with IEEE Quadcopter Team, I helped design an optimal controller for a hovering quadcopter.</br>
+					The linearized dynamics for quadcopter during hover is analyzed in MATLAB.
+					A combination of LQR and Kalman filter is designed and simulated in SIMULINK for optimal performance.
+					The controller is then implemented in C on a BeagleBone Blue with the help of Robot Control Library APIs to balance and fly the quadcopter</br></br>
+
+					The MATLAB code, SIMULINK model and flight software are all available here: 
+					<ul style= "list-style: none;">
+						<li><a href="https://github.com/hcl96/quadbalance/blob/master/quadcopter_estimation.m"  target="_blank">+ MATLAB Code</a></li>
+						<li><a href="https://github.com/hcl96/quadbalance/blob/master/quad_model_simulink.slx"  target="_blank">+ SIMULINK Model</a></li>
+						<li><a href="https://github.com/hcl96/quadbalance/blob/master/quad_balance.c" target="_blank">+ C Flight Software</a></li>			
+					</ul>
+
+					The quadcopter features a BeagleBone Blue with an embedded IMU perfect for dynamical controller implementation</br></br>
+					
+					For documentation and information regarding the BeagleBone Robot Control Library, click <a href="http://strawsondesign.com/docs/librobotcontrol/index.html">here</a></br>
+				</p>
+				
+		</div>
+
+		<footer>
+			<nav-bottom>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/h1liang/" target="_blank">LinkedIn</a></li>
+					<li><a href="https://github.com/hcl96" target="_blank">Github</a></li>
+					<!-- <li><a href="https://www.instagram.com/stevenliang96/" target="_blank">Instagram</a></li> -->
+				</ul>
+				<!-- <div id="Copyright">Designed and Built by Steven Liang &copy 2018 Liang Engineering</div> -->
+			</nav-bottom>
+			
+		</footer>
+
+	</body>

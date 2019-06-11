@@ -20,12 +20,12 @@
 			<a href="edumip.html">English</a>
 			<a href="edumip_zh.html">中文</a>
 				<div class="topnav-right">
-			    	<a href="index.html">Home</a>
-			    	<a href="uarm.html">Portfolio Opt</a>
-			    	<a href="uarm.html">Robotic uArm</a>
-			    	<a href="quad.html">Quadcopter</a>
-					<a href="edumip.html">Segway Robot</a>
-					<a href="ignus2.html">Rocket Engine</a>
+			    	<a href="index_zh.html">主頁</a>
+			    	<a href="portopt_zh.html">投資優化</a>
+					<a href="uarm_zh.html">機械手臂</a>
+					<a href="quad_zh.html">無人機</a>
+					<a href="edumip_zh.html">雙輪不倒翁</a>
+					<a href="ignus2_zh.html">火箭引擎</a>
 		  		</div>
 		</div>
 
@@ -34,26 +34,26 @@
 		</video>
 
 		<div class= "promo-content-robot">
-			<h1>Mobile Inverted Pendulum</h1>
+			<h1>雙輪不倒翁</h1>
 		</div>
 		<div class="about">
-			<h2>How to Balance the Robot?</h2>
+			<h2>如何平衡不倒翁機器人？</h2>
 				<p>
-					The Mobile Inverted Pendulum is a classic controls problem with the added challenge of balancing on wheels. </br>A combination of LQR and complementary filter is designed and implemented in C to balance the robot</br></br>
-
-					The MATLAB and balance codes are available here: 
+					倒立鐘擺是一個典型的控制學問題。</br>
+					我先分析機器人的動力學得出控制規則再用LQR和互補濾波器的組合植入 C 程式來平衡機器人:</br>
+					
 					<ul style= "list-style: none;">
-						<li><a href="https://github.com/hcl96/edumip_balance/blob/master/edumip_balance.c" target="_blank">+ Balance C Code</a></li>
-						<li><a href="https://github.com/hcl96/edumip_balance/blob/master/mipstatespace.m"  target="_blank">+ MATLAB Code</a></li>
+						<li><a href="https://github.com/hcl96/edumip_balance/blob/master/edumip_balance.c" target="_blank">+ 自動平衡 C 代碼</a></li>
+						<li><a href="https://github.com/hcl96/edumip_balance/blob/master/mipstatespace.m"  target="_blank">+ 動態分析 MATLAB 代碼</a></li>
 					</ul>
 
-					The eduMIP is an educational Mobile Inverted Pendulum kit developed by Coordinated Robotics Lab at UCSD. </br>It features a BeagleBone Blue with an embedded IMU perfect for dynamical controller implementation</br></br>
+					不倒翁機器人(eduMIP) 是由 UCSD Coordinated Robotics Lab 開發的教學用機器人。 </br>它採用 BeagleBone Blue 主機板附內建 IMU，非常適合動態控制器的應用。</br></br>
 					
-					For documentation and information regarding the eduMIP kit, click <a href="http://strawsondesign.com/docs/librobotcontrol/index.html">here</a></br>
+					有關 eduMIP 的開發文件和支援，請前往<a href="http://strawsondesign.com/docs/librobotcontrol/index.html"><u>這裡</u></a></br>
 				</p>
-				<h2>Does it work?</h2>
+				<h2>平衡效果如何?</h2>
 					<p>
-						eduMIP is demonstrated to reject environmental disturbances and return to the original position while maintaining balance</br>
+						實驗證明 eduMIP 可在外力干擾下保持平衡並回到設定位置</br>
 					</p>
 		</div>
 		<video width=100% height=auto autoplay muted loop id="myVideo">
